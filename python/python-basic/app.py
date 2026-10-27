@@ -22,7 +22,6 @@ def home():
 def get_users():
     return users
 
-
 # Get specific user with ID
 @app.route("/api/users/<int:user_id>", methods=["GET"])
 def get_user(user_id):
